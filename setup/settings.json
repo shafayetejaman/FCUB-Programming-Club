@@ -251,4 +251,6 @@
         "showCommands": false
     },
     "git.ignoreMissingGitWarning": true,
+    "accessibility.verbosity.terminal": false,
+    "accessibility.hideAccessibleView": true,
 }

@@ -1,0 +1,1 @@
+winget install codeblocks;winget install vscode;winget install git.git;
