@@ -102,7 +102,7 @@
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName",
         "c": "echo \" \" && cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe ",
-        "cpp": "echo \" \" && cd $dir && g++ -w -Wall -Wextra -DLOCAL -std=c++17 $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
+        "cpp": "echo \" \" && cd $dir && g++ -w -std=c++17 $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
     },
     "terminal.integrated.cursorStyle": "line",
     "git.autofetch": true,

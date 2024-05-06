@@ -113,5 +113,20 @@
     {
         "key": "ctrl+shift+backspace",
         "command": "workbench.action.terminal.kill"
-    }
+    },
+    {
+        "key": "ctrl+q",
+        "command": ""
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.reloadWindow",
+        "when": "editorTextFocus"
+    },
+  
 ]
