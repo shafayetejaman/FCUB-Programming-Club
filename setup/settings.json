@@ -56,7 +56,7 @@
         "zig": "zig run",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "echo \" \" && python3 -Wignore",
+        "python": "echo \" \" && python",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
