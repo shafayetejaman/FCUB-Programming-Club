@@ -10,7 +10,8 @@ Our mission is to foster a collaborative environment where students can learn, s
 
 ## Activities
 
-/**/
+![image](https://github.com/shafayetejaman/FCUB-Programming-Club/assets/112795252/580b7cfd-0dfd-4ab8-8178-1a52fbbce486)
+
 
 ## Membership
 
@@ -20,12 +21,6 @@ Membership is open to all students of the university. To become a member, fill o
 
 For any queries, feel free to reach out to us at CSE Connect group
 Email: shafaitzaman@gmail.com
-
-## Follow Us
-
-Stay updated with our activities by following us on our social media platforms.
-
-/**/
 
 ## Contributing
 
