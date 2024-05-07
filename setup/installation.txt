@@ -1,1 +1,3 @@
 winget install codeblocks;winget install vscode;winget install git.git;
+
+https://www.python.org/downloads/windows/
