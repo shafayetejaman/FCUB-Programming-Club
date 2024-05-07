@@ -19,6 +19,7 @@ Membership is open to all students of the university. To become a member, fill o
 ## Contact Us
 
 For any queries, feel free to reach out to us at CSE Connect group
+Email: shafaitzaman@gmail.com
 
 ## Follow Us
 
