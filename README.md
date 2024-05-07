@@ -1,4 +1,4 @@
-# This is FCUB-Programming-Club. 
+# This is FCUB Programming Club. 
 
 ## About Us
 
