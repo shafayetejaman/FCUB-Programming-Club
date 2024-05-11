@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("hello\n");
+    printf("this is c program\n");
 
     return 0;
 }
