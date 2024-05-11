@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "functional": "cpp",
+        "cmath": "cpp",
+        "iosfwd": "cpp",
+        "chrono": "cpp",
+        "complex": "cpp",
+        "random": "cpp",
+        "numeric": "cpp",
+        "bitset": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "system_error": "cpp",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "stdio.h": "c"
+    }
+}
