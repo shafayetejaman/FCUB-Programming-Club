@@ -5,7 +5,9 @@ int main()
     int a = 20, b = 10, ans;
 
     printf("give the value a : ");
-    scanf("%i", )
+    scanf(" %i", &a);
+    printf("give the value a : ");
+    scanf(" %i", &a);
 
     ans = a + b;
     printf("%i + %i = %i\n", a, b, ans);
