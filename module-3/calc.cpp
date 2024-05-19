@@ -2,7 +2,7 @@
 
 int main()
 {
-    float a = 20, b = 10, ans;
+    int a = 20, b = 10, ans;
 
     printf("give the value a : ");
     scanf(" %i", &a);
@@ -19,8 +19,10 @@ int main()
     ans = a * b;
     printf("%i * %i = %i\n", a, b, ans);
 
-    ans = a / b;
-    printf("%f / %f = %f\n", a, b, ans);
+
+
+    float div_ans = (a * 0.1) / (b * 0.1);
+    printf("%i / %i = %f\n", a, b, div_ans);
 
 
     return 0;
