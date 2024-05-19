@@ -7,7 +7,17 @@ int main()
     // printf("give the value ")
 
     ans = a + b;
-    printf("")
+    printf("%i + %i = %i\n", a, b, ans);
+
+    ans = a - b;
+    printf("%i + %i = %i\n", a, b, ans);
+
+    ans = a * b;
+    printf("%i + %i = %i\n", a, b, ans);
+    
+    ans = a / b;
+    printf("%i + %i = %i\n", a, b, ans);
+  
 
     return 0;
 }
