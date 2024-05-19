@@ -13,26 +13,12 @@ int main()
     ans = a + b;
     printf("%i + %i = %i\n", a, b, ans);
 
-    printf("give the value a : ");
-    scanf(" %i", &a);
-
-    printf("give the value b : ");
-    scanf(" %i", &b);
     ans = a - b;
     printf("%i - %i = %i\n", a, b, ans);
 
-    printf("give the value a : ");
-    scanf(" %i", &a);
-    printf("give the value b : ");
-    scanf(" %i", &b);
     ans = a * b;
     printf("%i * %i = %i\n", a, b, ans);
 
-    printf("give the value a : ");
-    scanf(" %i", &a);
-
-    printf("give the value b : ");
-    scanf(" %i", &b);
     ans = a / b;
     printf("%i / %i = %i\n", a, b, ans);
 
