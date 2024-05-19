@@ -20,7 +20,7 @@ int main()
     printf("%i * %i = %i\n", a, b, ans);
 
     ans = a / b;
-    printf("%i / %i = %i\n", a, b, ans);
+    printf("%f / %f = %f\n", a, b, ans);
 
 
     return 0;
