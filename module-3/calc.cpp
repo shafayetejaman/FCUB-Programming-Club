@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a = 20, b = 10, ans;
+    float a = 20, b = 10, ans;
 
     printf("give the value a : ");
     scanf(" %i", &a);
