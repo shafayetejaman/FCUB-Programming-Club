@@ -5,11 +5,11 @@ int main()
     int a;
    
 
-    scanf("%i %f %c", &a, &b , &c);
+    scanf("%i", &a);
 
-    
+    a
 
-    printf("%f %i %c this is my money\n", b, a, c);
+    printf("%i this is my money\n", a);
 
     
 
