@@ -6,14 +6,11 @@ int main()
 
     scanf("%i", &a);
     scanf("%i", &b);
+          //10.0000      // 10
+    float c = (float)a;
+    float d = (float)b;
 
-    printf("%i this is my money\n", a/b);
-    
-
-    float a_in_f = (float)a;
-    float b_in_f = (float)b;
-
-    printf("%f this is my money\n", a_in_f / b_in_f);
+    printf("%f this is my money\n", c / d);
 
 
 
