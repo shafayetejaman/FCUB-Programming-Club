@@ -6,7 +6,7 @@ int main()
 
     float b = 10.5;
 
-    printf("%f\n", b);
+    printf("%f\n %i\n", b, a);
 
 
     return 0;
