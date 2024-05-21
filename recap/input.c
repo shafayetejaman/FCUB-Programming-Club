@@ -4,7 +4,7 @@ int main()
 {
     int a = 10;
 
-    printf("%i", sizeof(a));
+    printf("%lu", sizeof(a));
 
     return 0;
 }
