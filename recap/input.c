@@ -2,9 +2,12 @@
 
 int main()
 {
-    int a = 10000001;
+    int a = 10;
 
-    printf("%i\n", a);
+    float b = 10.5;
+
+    printf("%f\n", b);
+
 
     return 0;
 }
