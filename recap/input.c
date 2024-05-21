@@ -3,15 +3,15 @@
 int main()
 {
     int a;
-   
+
     scanf("%i", &a);
 
-    // a = a + 10;
-    a++;
 
-    printf("%i this is my money\n", a);
 
-    
+
+    printf("%f this is my money\n", a * 1.0);
+
+
 
     return 0;
 }
