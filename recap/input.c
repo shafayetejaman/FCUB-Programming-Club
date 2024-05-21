@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a = 10;
+    int a = 1000000001;
 
-    printf("%lu\n", sizeof(a));
+    printf("%i\n", a);
 
     return 0;
 }
