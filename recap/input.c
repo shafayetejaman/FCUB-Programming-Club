@@ -2,8 +2,7 @@
 
 int main()
 {
-
-    printf("this is c program");
+    int a = 10;
 
     return 0;
 }
