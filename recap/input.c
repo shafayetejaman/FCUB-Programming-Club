@@ -6,7 +6,8 @@ int main()
    
     scanf("%i", &a);
 
-    a = a + 10;
+    // a = a + 10;
+    a++;
 
     printf("%i this is my money\n", a);
 
