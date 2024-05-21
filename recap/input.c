@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a = 1000000001;
+    int a = 10000001;
 
     printf("%i\n", a);
 
