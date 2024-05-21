@@ -2,12 +2,12 @@
 
 int main()
 {
-    int a = 10;
-    float b = 10.5;
-    char c = '$';
+    int a;
+   
 
-    scanf("%f")
+    scanf("%i %f %c", &a, &b , &c);
 
+    
 
     printf("%f %i %c this is my money\n", b, a, c);
 
