@@ -3,14 +3,14 @@
 int main()
 {
     int n = 20;
-    int a = 10;
+    int a = 30;
 
       // not true
-    if (n >= a)
+    if (n <= a)
     {
         printf("n=%i is greater then a=%i\n",n, a);
     }
-    else
+    else 
     {
         
         printf("n=%i is not greater then a=%i\n",n, a);
