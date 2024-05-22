@@ -2,11 +2,11 @@
 
 int main()
 {
-    int n = 20;
-    int a = 20;
+    int n = 50;
+    int a = 30;
 
     //        and
-    if (n > a && n < a)
+    if (n > a || n < a && n == a)
     {
         printf("n=%i is greater then a=%i\n", n, a);
     }
