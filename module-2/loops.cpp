@@ -6,7 +6,7 @@ int main()
 
     while (a == 10)
     {
-        printf("a is equal to ")
+        printf("a is equal to 10\n");
     }
 
     return 0;
