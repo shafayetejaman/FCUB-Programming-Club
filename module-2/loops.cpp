@@ -13,9 +13,10 @@ int main()
 
 
     int a = 0;
-    while (++a != 3)
+    //     1 != 3
+    while (a++ != 3)
     {
-        printf("%i\n", a);
+        printf("%i\n", a);// 2
     }
 
     return 0;
