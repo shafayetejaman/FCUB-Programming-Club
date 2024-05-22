@@ -15,8 +15,8 @@ int main()
     int a = 0;
     while (a != 3)
     {
-        a++;
-        printf
+        ++a;
+        printf("%i\n", a);
     }
 
     return 0;
