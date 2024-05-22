@@ -12,15 +12,13 @@ int main()
                         //  false
 
 
-    int a = 5;
+    int a = 0;
+    // a = a+1
+    a++;
+    printf("a = %i", a);
 
-    do
-    {
-        printf("a is equal to %i\n", a);
-        a++;
-    }
-    while (a < 10);
-
+    ++a;
+    printf("a = %i", a);
 
     return 0;
 }
