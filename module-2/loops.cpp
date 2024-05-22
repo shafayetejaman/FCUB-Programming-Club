@@ -16,9 +16,9 @@ int main()
 
     do
     {
-        
+        printf("a is equal to 0\n");
     }
-    while (a == )
+    while (a == 0);
 
 
     return 0;
