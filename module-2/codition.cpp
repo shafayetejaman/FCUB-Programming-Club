@@ -5,7 +5,7 @@ int main()
     int n = 50;
     int a = 30;
 
-    //        and
+    //  true  or  false
     if (n > a || n < a && n == a)
     {
         printf("n=%i is greater then a=%i\n", n, a);
