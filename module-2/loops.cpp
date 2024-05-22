@@ -12,7 +12,7 @@ int main()
                         //  false
 
 
-    int a = 0;
+    int a = 5;
 
     do
     {
