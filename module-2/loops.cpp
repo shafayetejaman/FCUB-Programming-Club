@@ -16,9 +16,10 @@ int main()
 
     do
     {
-        printf("a is equal to 0\n");
+        printf("a is equal to %i\n", a);
+        a++;
     }
-    while (a == 0);
+    while (a < 10);
 
 
     return 0;
