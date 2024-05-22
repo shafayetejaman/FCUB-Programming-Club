@@ -4,10 +4,10 @@ int main()
 {
     int a = 1;
 
-    while (a == 10)
+    while (a < 10)
     {
-        printf("a is equal to 10\n");
-        a++;
+        printf("%i is equal to 10\n", a);
+        a++;// 1+1=2
     }
 
     return 0;
