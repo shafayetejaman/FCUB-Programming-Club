@@ -2,18 +2,18 @@
 
 int main()
 {
-    int n = 10;
-    int a = 11;
+    int n = 20;
+    int a = 10;
 
-      // true
-    if (n != a)
+      // not true
+    if (n >= a)
     {
-        printf("n is equal to %i\n", a);
+        printf("n=%i is greater then a=%i\n",n, a);
     }
     else
     {
         
-        printf("n is not equal to %i\n", a);
+        printf("n=%i is not greater then a=%i\n",n, a);
     }
 
     return 0;
