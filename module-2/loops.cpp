@@ -13,10 +13,10 @@ int main()
 
 
     int a = 0;
-    // a = a+1
-
-    printf("a = %i\n", a++);
-    printf("a = %i\n", a);
+    while ()
+    {
+        
+    }
 
     return 0;
 }
