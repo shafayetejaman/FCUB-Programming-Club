@@ -10,10 +10,15 @@ int main()
     //     a++;// 9+1=10
     // }
                         //  false
-    for (int a = 1, i = 9; a <= 10 && i < 10; a++, i++)
+
+
+    int a = 0;
+
+    do
     {
-        printf("%i is equal to 10\n", a);
+        
     }
+    while (a == )
 
 
     return 0;
