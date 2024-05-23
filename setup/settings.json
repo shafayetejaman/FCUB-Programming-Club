@@ -125,16 +125,6 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "cph.general.defaultLanguage": "python",
     "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword.operator",
-                "settings": {
-                    "foreground": "#fb577a"
-                }
-            }
-        ]
-    },
     "workbench.list.openMode": "doubleClick",
     "workbench.colorTheme": "Atom One Dark",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
@@ -253,4 +243,63 @@
     "git.ignoreMissingGitWarning": true,
     "accessibility.verbosity.terminal": false,
     "accessibility.hideAccessibleView": true,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.operator",
+                    "source.cpp keyword.operator",
+                    "entity.name.function.operator.cpp",
+                    "punctuation.separator.colon.range-based.cpp",
+                    "storage.modifier.reference.cpp"
+                ],
+                "settings": {
+                    "foreground": "#fb577a"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.local.cpp",
+                    "source.python",
+                    "variable.parameter.cpp",
+                    "variable.parameter.function.language.python",
+                    "variable.other.global.cpp",
+                    "variable.parameter.preprocessor.cpp",
+                    "meta.function-call.arguments.python"
+                ],
+                "settings": {
+                    "foreground": "#61afef"
+                }
+            },
+            {
+                "scope": [
+                    "constant.other.caps.python",
+                ],
+                "settings": {
+                    "foreground": "#2c9b58"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.member.cpp",
+                    "meta.member.access.python",
+                    "entity.name.function.cpp",
+                    "entity.name.function.python"
+                ],
+                "settings": {
+                    "foreground": "#54b4ba"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.built-in.primitive.cpp",
+                    "support.type.python"
+                ],
+                "settings": {
+                    "foreground": "#9e82fc"
+                }
+            },
+        ],
+    },
 }
