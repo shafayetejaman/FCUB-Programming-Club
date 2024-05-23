@@ -124,9 +124,11 @@
         "when": "!terminalFocus"
     },
     {
-        "key": "f5",
+        "key": "ctrl+f5",
         "command": "workbench.action.reloadWindow",
-        "when": "editorTextFocus"
     },
-  
+    {
+        "key": "f5",
+        "command": "workbench.files.action.refreshFilesExplorer",
+    },
 ]
