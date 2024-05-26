@@ -2,10 +2,12 @@
 
 int main()
 {
-    int n;
-    scanf("%i", &n);
+    int n, t;
+    scanf("%i ", &n);
 
-    if (n >= 10)
+
+
+    if (n <= 10)
     {
         printf("Yes\n");
     }
