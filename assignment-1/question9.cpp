@@ -6,19 +6,21 @@ int main()
     int t;
     scanf("%i", &t);
 
-    while()
+    while(t--)
     {
-        int n;
-        scanf("%i", &n);
 
-        if (n <= 10)
-        {
-            printf("YES\n");
-        }
-        else
-        {
-            printf("NO\n");
-        }
+        printf("%i", t)
+        // int n;
+        // scanf("%i", &n);
+
+        // if (n <= 10)
+        // {
+        //     printf("YES\n");
+        // }
+        // else
+        // {
+        //     printf("NO\n");
+        // }
 
     }
 
