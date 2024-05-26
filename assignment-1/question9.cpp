@@ -2,19 +2,30 @@
 
 int main()
 {
-    int n, t;
-    scanf("%i ", &n);
 
+    int t;
+    scanf("%i", &t);
 
-
-    if (n <= 10)
+    for (int i = 0; i < t;i++)
     {
-        printf("Yes\n");
+        
+        int n;
+        scanf("%i", &n);
+
+
+        if (n <= 10)
+        {
+            printf("Yes\n");
+        }
+        else
+        {
+            printf("No\n");
+        }
+
     }
-    else
-    {
-        printf("No\n");
-    }
+
+
+
 
     return 0;
 }
