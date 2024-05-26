@@ -10,17 +10,17 @@ int main()
     {
 
         printf("%i\n", t);
-        // int n;
-        // scanf("%i", &n);
+        int n;
+        scanf("%i", &n);
 
-        // if (n <= 10)
-        // {
-        //     printf("YES\n");
-        // }
-        // else
-        // {
-        //     printf("NO\n");
-        // }
+        if (n <= 10)
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }
 
     }
 
