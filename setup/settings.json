@@ -213,7 +213,7 @@
     "files.exclude": {
         "**/*.gitignore": true,
         "**/*.md": true,
-        ".cph": true,
+        "**/*.cph": true,
     },
     "emmet.includeLanguages": {
         "django-html": "html",
@@ -243,7 +243,6 @@
     "git.ignoreMissingGitWarning": true,
     "accessibility.verbosity.terminal": false,
     "accessibility.hideAccessibleView": true,
-
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -302,4 +301,8 @@
             },
         ],
     },
+    "explorer.confirmPasteNative": false,
+    "explorer.compactFolders": false,
+    "workbench.enableExperiments": false,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
 }
