@@ -10,8 +10,8 @@
     "editor.snippetSuggestions": "top",
     "editor.suggestOnTriggerCharacters": true,
     "editor.quickSuggestions": {
-        "other": "inline",
-        "strings": "inline",
+        "other": "on",
+        "strings": "on",
         "comments": "inline",
     },
     "C_Cpp.formatting": "vcFormat",
