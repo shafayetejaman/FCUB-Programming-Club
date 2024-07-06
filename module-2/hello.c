@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf();
+    printf("this is my first c program\n");
 
     return 0;
 }
