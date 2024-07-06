@@ -2,15 +2,15 @@
 
 int main()
 {
-    int a = 10;
+    int a = 20;
 
     if (a > 10)
     {
-        printf("a is grater 10\n");
+        printf("a is grater then 10\n");
     }
     else
     {
-        printf("a  10\n");
+        printf("a is smaller then 10\n");
     }
 
     return 0;
