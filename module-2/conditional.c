@@ -14,7 +14,7 @@ int main()
         }
         else
         {
-            printf("a is grath")
+            printf("a is grater then 5\n");
         }
     }
     else
