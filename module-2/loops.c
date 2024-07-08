@@ -4,12 +4,12 @@ int main()
 {
     int n = 3;
 
-    while (n > 0)
+    for (int i = 0; i < n; i++)
     {
         printf("n = %i\n", n);
-
-        n--;
     }
 
     return 0;
 }
+
+
