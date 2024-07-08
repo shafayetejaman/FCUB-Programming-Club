@@ -1,5 +1,4 @@
 
-
 /*
 Create a C program that calculates and displays the grade of a student based on their score.The grading criteria are as follows :
 
