@@ -2,26 +2,14 @@
 
 int main()
 {
-    int a = 10;
+    int a = 6;
+    int b = 10;
 
+    a = a / b;
+    a /= b;
 
-    // 2 != 10
-    if (a <= 10)
-    {
-        if (a < 5)
-        {
-            printf("a is equal or grater then 10\n");
-        }
-        else
-        {
-            printf("a is grater then 5\n");
-        }
-    }
-    else
-    {
-
-        printf("a smaller then 10\n");
-    }
+    printf("%i\n", a);
+    
 
     return 0;
 }
