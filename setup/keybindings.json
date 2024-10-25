@@ -32,10 +32,6 @@
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
-        "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
-    },
-    {
         "key": "ctrl+n",
         "command": "explorer.newFile"
     },
@@ -46,20 +42,6 @@
     {
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder"
-    },
-    {
-        "key": "alt+r",
-        "command": "renameFile"
-    },
-    {
-        "key": "ctrl+\\",
-        "command": "editor.action.quickFix",
-        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+.",
-        "command": "-editor.action.quickFix",
-        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
     {
         "key": "shift+enter",
@@ -102,21 +84,8 @@
         "command": "livePreview.end"
     },
     {
-        "key": "ctrl+enter",
-        "command": "code-runner.run"
-    },
-    {
-        "key": "shift+tab",
-        "command": "editor.action.inlineSuggest.showNext",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+shift+backspace",
         "command": "workbench.action.terminal.kill"
-    },
-    {
-        "key": "ctrl+q",
-        "command": ""
     },
     {
         "key": "ctrl+shift+e",
@@ -130,5 +99,99 @@
     {
         "key": "f5",
         "command": "workbench.files.action.refreshFilesExplorer",
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.toggleTerminal",
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "leetcode.searchProblem"
+    },
+    {
+        "key": "shift+tab",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "code-runner.run",
+                "workbench.action.focusActiveEditorGroup"
+            ]
+        }
+    },
+    {
+        "key": "ctrl+b",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.focusNextCursor",
+                "workbench.action.focusSideBar"
+            ]
+        },
+        "when": "!sideBarVisible"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+=",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "shift+alt+backspace",
+        "command": "workbench.action.terminal.unsplit"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "shift+up",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+down",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
     },
 ]
